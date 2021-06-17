@@ -6,8 +6,65 @@ Estilos da pagina index.html
     text-align: center;
 }
 
+.justify
+{
+    text-align: justify;
+}
 
+.container
+{
+    display: flex;
+    flex-flow: row ;
+    justify-content:center;
+    align-items: center;
+}
 
+#menu li
+{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#menu li a
+{
+    text-decoration: none;
+    color: darkmagenta;
+    font-size: 20px;
+}
+
+/*quando o mouse estiver em cima do link, este muda de cor*/
+#menu li a:hover
+{
+    color:darkolivegreen;
+}
+
+.p30
+{
+    padding: 30px;
+}
+
+.borda50
+{
+    border-radius: 50%;
+}
+
+.tamanho
+{
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+}
+
+.margem50
+{
+    margin-bottom: 50px;
+}
+
+.margemLateral50
+{
+    margin-left: 50px;
+}
 
 /* 
 Estilos da pagina contato.html

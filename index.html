@@ -43,7 +43,7 @@
     <!--existem:  h1 h2 h3 h4 h5 h6 -->
 
     <!--lista desordenada-->
-    <ul>
+    <ul id="menu">
         <!-- tag a é uma ancora que permite transformar o item em um item clicavel-->
         <!-- target _blank abre o item clicavel em outra janela-->
         <li> <a href= "https://www.google.com.br/" target="_blank">  Google </a></li>
@@ -53,6 +53,30 @@
     </ul>
 
     <h1> Sobre a Juliana </h1>
+
+    <div class="container"> 
+
+        <div>
+            <img class="borda50 p30" src="assets/img/ju.jpg" alt="Foto do criador deste conteudo"> 
+        </div>
+
+        <div class="p30">
+            <p id="p1">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia nobis aliquam <br> exercitationem perferendis hic optio quam accusantium, voluptatibus soluta repe<br>
+                 tempora vel facere necessitatibus quibusdam incidunt deserunt. Soluta, non? <br>
+            </p>
+            <p class="p2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam error culp<br>
+                veritatis harum nulla laborum suscipit et temporibus aspernatur impedit a temp<br>
+                natus consequuntur dolorum fuga iusto eveniet laboriosam!<br>
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis fugit consequuntur commodi, odio beatae blanditiis aut illo recusandae suscipit eius, non eveniet eligendi numquam at hic? Tenetur eos vero nihil.
+            </p>    
+        </div>
+       
+    </div>
+
         <p id="p1">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia nobis aliquam <br> exercitationem perferendis hic optio quam accusantium, voluptatibus soluta repe<br>
              tempora vel facere necessitatibus quibusdam incidunt deserunt. Soluta, non? <br>
@@ -72,7 +96,9 @@
         <!-- com o endereço da imagem salva dentro da pasta do meu projeto-->
         <img src="assets/img/ju.jpg" alt="Foto do criador deste conteudo"> 
 
-        <h2>Meu video predileto: </h2>
+        <h2 class="center">Meu video predileto: </h2>
+
+        <div class="container">
         <iframe width="560" 
         height="315" 
         src="https://www.youtube.com/embed/rA56B4JyTgI" 
@@ -80,6 +106,7 @@
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
          </iframe>
+        </div>
 
         <!-- iframe = um pedaço de um site, dentro do nosso site-->
         <!-- width = largura-->
@@ -87,6 +114,23 @@
         <!-- src = vindo do youtube -->
         <!-- frameborder = borda/moldura -->
         <!-- allow = permitir / permitir acelerar, autoplay, encriptar media, janela abaixo, tela cheia-->
+
+        <hr>
+
+        <footer> 
+
+            <div class="container margem50">
+                <a href="https://www.linkedin.com/in/juliana-ribeiro-b71316153/" target="_blank">
+                    <img class= "tamanho" src="assets/img/linkedin.png" alt="Logo Linkedin">
+                </a>
+                
+                <a href="https://github.com/JuRibeiro" target="_blank">
+                <img class="tamanho" src="assets/img/github.png" alt="Logo Github">
+                </a>
+            </div>
+
+            <p class="center">Todos os direitos reservados. Juliana Ribeiro &copy</p>
+        </footer>
 
 </body>
 </html>
