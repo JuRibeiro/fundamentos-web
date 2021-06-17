@@ -7,9 +7,36 @@
     <meta charset="UTF-8">
     <!-- e essa linha ??-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- tag de resposividade -->
+    <!-- tag de responsividade -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+
+    <!-- link com o arquivo css que esta sendo criado externamente ao codigo-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+   <!-- <style>
+       /* p{
+            font-size: 23px;
+        } */
+
+        /* para chamar atributo id , só funciona para id=p1*/
+        #p1{
+            font-size: 30px;
+        }
+
+        /* para chamar a classe, funciona pra varios locais denominados class=p2 */
+        .p2{
+            font-size: 40px;
+        }
+
+        .center
+        {
+            text-align: center;
+        }
+    </style> -->
+
+
 </head>
 <body>
     <!-- só pode existir um H1(que é o principal)-->
@@ -26,14 +53,17 @@
     </ul>
 
     <h1> Sobre a Juliana </h1>
-        <p>
+        <p id="p1">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia nobis aliquam <br> exercitationem perferendis hic optio quam accusantium, voluptatibus soluta repe<br>
              tempora vel facere necessitatibus quibusdam incidunt deserunt. Soluta, non? <br>
         </p>
-        <p>
+        <p class="p2">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam error culp<br>
             veritatis harum nulla laborum suscipit et temporibus aspernatur impedit a temp<br>
             natus consequuntur dolorum fuga iusto eveniet laboriosam!<br>
+        </p>
+        <p class="center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis fugit consequuntur commodi, odio beatae blanditiis aut illo recusandae suscipit eius, non eveniet eligendi numquam at hic? Tenetur eos vero nihil.
         </p>
 
         <!-- SRC= fonte da imagem , alt= texto que aparecerá caso a imagem quebre/dê erro-->
