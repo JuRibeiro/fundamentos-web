@@ -48,7 +48,7 @@ function validaEmail ()
 {
     let txtEmail = document.querySelector("#txtEmail")
     if (email.value.indexOf("@") == -1 || email.value.indexOf(".") == -1)
-    {
+    {   
         txtEmail.innerHTML = "Email inválido"
         txtEmail.style.color="red"
     }
